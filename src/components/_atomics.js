@@ -1,9 +1,11 @@
 import React from 'react'
 import GatsbyLink from 'gatsby-link'
-import {StylSheet, Text as RNText} from 'react-native'
 
-//TODO: onMouserOver/OnmouseLeave local state
-export const Link = ({style, ...rest}) => {
+/* eslint-disable */
+
+
+// TODO: onMouserOver/OnmouseLeave local state
+export const Link = ({ style, ...rest }) => {
   const s = {
     container:{
       textDecoration: 'none',
@@ -13,5 +15,9 @@ export const Link = ({style, ...rest}) => {
     }
   }
 
-  return <GatsbyLink  style={{...s.container,...style}}  {...rest}/>
+  return <GatsbyLink  style={{ ...s.container,...style }}  {...rest}/>
 }
+
+
+
+/* eslint-enable */
