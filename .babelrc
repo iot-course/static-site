@@ -1,0 +1,7 @@
+{
+  "plugins": [
+    ["module-alias", [
+      { "src": "npm:react-native-web", "expose": "react-native" }
+    ]]
+  ]
+}
